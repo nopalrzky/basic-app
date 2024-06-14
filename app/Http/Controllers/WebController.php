@@ -20,4 +20,9 @@ class WebController extends Controller
   {
     return "It's contact page";
   }
+
+    public function show()
+    {   
+    return "it's show page with id";
+    }   
 }
